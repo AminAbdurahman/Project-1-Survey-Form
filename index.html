@@ -3,28 +3,36 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 <head> <link rel="stylesheet" href="styles.css"></style></head>
+<!-- Project 1 Revision
+Amin A
+June 24th, 2023-->
 <body>
 <h1 id="title">freeCodeCamp Survey Form</h1>
 <p id="description"><strong><em>Thank you for taking the time to help us improve the platform</em></strong></p>
 <fieldset>
-<form action= "" id="survey-form">
+<!--Survey Form is the name of the webpage.-->
+    <form action= "" id="survey-form">
 <form>
-<label id="name-label">
+<!--Name Label for inputting the First and Last Name.-->
+    <label id="name-label">
   <div>
   <div>Name</div>
   <input id="name" required placeholder="Enter Your Full Name" required type="text"></label>
 </div>
 <div>
-<label id="email-label">
+<!-- Email label for inputting the email address of the user.-->
+    <label id="email-label">
   <div>Email</div>
   <input id="email" required placeholder="Enter Your Email(gmail)" required type="email"></label>
 </div>
 <div>
-<label id="number-label">
+<!--Number label for inputting the age of the user.-->
+    <label id="number-label">
 Age
 <div>
   <input id="number" required placeholder="Age" type="number" min="13" max="150"></label></div>
 </div>
+<!--Select gives a list of options and the option element allows answer choices to be displayed.-->
 <select id="dropdown">
 <option "">Select The Current Role</option>
 <option "1">Student Full Time</option>
@@ -34,11 +42,11 @@ Age
 <option "5">Other</option>
 </select name="group">
 <div class="input-element">
-
+<!--Div class is a divider of each element.-->
 </div>
 <strong>Will you continue to proceed with the next set of projects in freeCodeCamp?</strong>
 </div>
-
+<!--Input button "radio" makes the one only selection buttons to choose at a time.-->
 <div>
 <input type="radio" name="button" value="button"> I Will Proceed</input>
 </div>
@@ -52,7 +60,7 @@ Age
 <select id="dropdown">
  </div> 
 <p>sdsds
-
+<!--Another Select element with the option elements.-->
 <div>
 <option "">Select An Option Here</option>
 </div>
@@ -61,7 +69,7 @@ Age
 <option "3">The Tutorials And The Teachers</option>
 <option "4">Open Source Project</option>
 
-
+<!--The div style aligns the div classes to the left.-->
 <div>
   <div style="align-left">
  </div> 
@@ -77,9 +85,9 @@ Age
 <input type="checkbox" value="Back-end Projects">Back-end Projects
 </div>
 <div>
-
+<!-- The font color is "stronger" for the textarea element.-->
 <p><font color="FFFFFF"><stronger> Type in this box of what you want to be added to freeCodeCamp and the web developers will look at your idea.</stronger></p></div>
-
+<!-- The font color is white to make it easier to see.-->
 <div>
 <font color="FFFFFF"><input type="textarea" placeholder="I wish there could be...">
 </div>
@@ -95,3 +103,5 @@ Age
 
 
 </form>
+</body>
+</html>

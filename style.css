@@ -1,3 +1,4 @@
+/* Background image with text alignment.*/
 body {
     background-image: url(https://epe.brightspotcdn.com/dims4/default/df23b89/2147483647/strip/true/crop/1690x1147+0+0/resize/840x570!/format/webp/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.amazonaws.com%2Fce%2F91%2F09e14b9b4a4599f60cb1f81cc695%2F26research-column0321-1279374370.jpg);
   text-align: center;
@@ -7,9 +8,11 @@ body {
   border: 2px solid black;
   border-radius: 40px;
   input-align: left;
-  }
-  h1 {
   
+}
+  /*Header #1 for the header section colors.*/
+h1 {
+  /*Header nickname for the margin, border-background-color in the 2nd section of the page.*/
   width: auto; 
   }
   input[type="submit"] {
@@ -18,10 +21,10 @@ body {
   background-color: #C360F8;
   border: 1px solid #C360F8;
   margin-bottom: 50px;
-  
+  /*
   }
   
-  
+  /*Input class colors and text sizes.*/
   
   input {
   vertical-align: bottom;
@@ -32,5 +35,5 @@ body {
   margin: 15;
   background-color: #AB79C6;
   align-items: left;
-  
+  /*Emd of the input class.*/
   }
